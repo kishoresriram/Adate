@@ -29,6 +29,7 @@ public class PlaceDetail extends Activity {
         Bitmap bmp = null;
         String filename = getIntent().getStringExtra("image");
         try {
+            //open file in as inputstream and decode.
             FileInputStream is = this.openFileInput(filename);
             bmp = BitmapFactory.decodeStream(is);
             is.close();
