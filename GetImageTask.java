@@ -11,6 +11,7 @@ import java.net.URL;
 /**
  * Created by Kishore on 23-May-16.
  */
+ //Async class to get images. may need to change it to operate on View - code below.
 //public class DownloadImages extends AsyncTask {
 //
 //    @Override
